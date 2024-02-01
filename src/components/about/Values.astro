@@ -3,29 +3,29 @@ const values = [
   [
     {
       ref: '01',
-      name: 'Excellence',
+      name: 'Excelencia',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Cada miembro de nuestro equipo comparte el compromiso de brindar un servicio legal de calidad, basado en la empatía, la ética y el respeto. Nos esforzamos por ser líderes en el campo legal, adaptándonos constantemente a las necesidades de nuestros clientes y del entorno legal.',
     },
     {
       ref: '02',
-      name: 'Innovation',
+      name: 'Enseñar',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Además, nuestra misión incluye educar a la comunidad sobre sus derechos legales y cómo pueden protegerse en situaciones adversas. Creemos en la transparencia y la comunicación abierta, empoderando a nuestros clientes con el conocimiento necesario para tomar decisiones informadas.',
     },
   ],
   [
     {
       ref: '03',
-      name: 'Teamwork',
+      name: 'Equipo de Trabajo',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'En resumen, nuestra misión es ser el apoyo legal confiable y dedicado que la comunidad necesita en momentos cruciales. Estamos aquí para transformar desafíos legales en soluciones, proporcionando a nuestros clientes la tranquilidad y el respaldo que merece.',
     },
     {
       ref: '04',
-      name: 'Respect',
+      name: 'Respeto',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'En nuestro estudio legal, nuestra misión es fundar cada acción en el principio fundamental del respeto. Nos dedicamos a tratar a cada individuo con dignidad y consideración, reconociendo la importancia única de cada caso y la situación personal de cada cliente en particular.',
     },
   ],
 ];
@@ -34,14 +34,14 @@ const values = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-8 lg:gap-12">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Values</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nuestros Valores</h2>
       <div class="grid gap-8 lg:grid-cols-2">
         {
           values.map((column, index) => (
-            <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
+            <div class:list={['space-y-8', index === 1 && '']}>
               {column.map((value) => (
                 <div class="bg-primary-500/10 dark:bg-primary-400/10 flex flex-col gap-12 rounded-3xl px-6 py-8">
-                  <p class="text-sm">{value.ref}</p>
+                  
                   <div class="flex flex-col gap-4">
                     <h3 class="text-xl font-medium">{value.name}</h3>
                     <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
